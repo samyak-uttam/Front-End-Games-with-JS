@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <p class="message">Player 1's turn</p>
+
+  <div class="grid-container">
+    <button class="a grid-item"></button>
+    <button class="b grid-item"></button>
+    <button class="c grid-item"></button>
+    <button class="d grid-item"></button>
+    <button class="e grid-item"></button>
+    <button class="f grid-item"></button>
+    <button class="g grid-item"></button>
+    <button class="h grid-item"></button>
+    <button class="i grid-item"></button>
+  </div>
+
+  <div class="scores">
+    <div class="score">
+      <p>Player 1</p>
+      <p class="player1-score">0</p>
+    </div>
+    <div class="score">
+      <p>Tie</p>
+      <p class="ties">0</p>
+    </div>
+    <div class="score">
+      <p>Player 2</p>
+      <p class="player2-score">0</p>
+    </div>
+    <img id="reset" src="images/reset.png" alt="">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+}
+
+.message {
+  font-size: 5rem;
+  margin: 30px;
+}
+
+.grid-container {
+  background-color: white;
+  display: inline-grid;
+  grid-gap: 5px 5px;
+  grid-template: 200px 200px 200px / 200px 200px 200px;
+  margin: auto;
+}
+
+.grid-item {
+  background-color: black;
+  border: 0;
+  color: white;
+  font-size: 0;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.score {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 2rem;
+}
+
+#reset {
+  height: 80px;
+  width: 80px;
+  padding-left: 20px;
+}
