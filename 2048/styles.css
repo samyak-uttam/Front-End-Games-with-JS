@@ -32,6 +32,13 @@ body {
   margin-left: 40px;
 }
 
+#restart {
+  color: "#776e65";
+  height: 50px;
+  width: 50px;
+  margin-left: 40px;
+}
+
 .grid-container {
   background-color: #bbada0;
   border-radius: 2%;
@@ -47,7 +54,7 @@ body {
   justify-content: center;
   background-color: #cdc1b4;
   border-radius: 5%;
-  font-size: 400%;
+  font-size: 340%;
   height: 120px;
   width: 120px;
 }
