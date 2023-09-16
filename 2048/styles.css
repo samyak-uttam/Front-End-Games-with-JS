@@ -5,6 +5,14 @@ body {
   text-align: center;
 }
 
+.homepage {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
 .heading {
   font-size: 5rem;
   display: inline-block;
